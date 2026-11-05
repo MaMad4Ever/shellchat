@@ -31,7 +31,7 @@ A terminal-based chat application built with Python and Redis Pub/Sub. Users can
 Clone the repository:
 
 ```bash
-git clone https://github.com/USERNAME/redis-terminal-chat.git
+git clone https://github.com/MaMad4Ever/shellchat.git
 cd redis-terminal-chat
 ```
 
@@ -48,25 +48,25 @@ Make sure a Redis server is running and accessible.
 Start the application using a local Redis server:
 
 ```bash
-python3 chat.py --host 127.0.0.1
+python3 main.py --host 127.0.0.1
 ```
 
 Connect to a remote Redis server:
 
 ```bash
-python3 chat.py --host 192.168.1.100 --port 6379
+python3 main.py --host 192.168.1.100 --port 6379
 ```
 
 Connect with authentication:
 
 ```bash
-python3 chat.py --host 192.168.1.100 --password YOUR_PASSWORD
+python3 main.py --host 192.168.1.100 --password YOUR_PASSWORD
 ```
 
 Connect using TLS:
 
 ```bash
-python3 chat.py --host redis.example.com --port 6379 --tls
+python3 main.py --host redis.example.com --port 6379 --tls
 ```
 
 ### Command-line Arguments
