@@ -1,4 +1,4 @@
-# Redis Terminal Chat
+# ShellChat
 ```
  ____   _   _  _____  _      _       ____  _   _     _     _____
 / ___| | | | || ____|| |    | |     / ___|| | | |   / \   |_   _|
@@ -32,7 +32,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/MaMad4Ever/shellchat.git
-cd redis-terminal-chat
+cd shellchat
 ```
 
 Install the required packages:
@@ -104,7 +104,7 @@ The application includes five built-in color themes:
 You can select a theme when launching the application:
 
 ```bash
-python3 chat.py --host 127.0.0.1 --theme cyber
+python3 main.py --host 192.168.1.100 --theme cyber
 ```
 
 Or change it while chatting:
