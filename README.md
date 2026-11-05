@@ -87,28 +87,6 @@ python3 main.py --host redis.example.com --port 6379 --tls
 |---|---|
 | `/nick NAME` | Change your nickname |
 | `/theme` | Display available themes |
-| `/theme NAME` | Change the current color theme |
+| `/theme NAME` | Change the current theme(matrix, cyber, blood, ice, mono) |
 | `/clear` | Clear the terminal screen |
 | `/quit` | Exit the chat |
-
-## 🎨 Available Themes
-
-The application includes five built-in color themes:
-
-- `matrix`
-- `cyber`
-- `blood`
-- `ice`
-- `mono`
-
-You can select a theme when launching the application:
-
-```bash
-python3 main.py --host 192.168.1.100 --theme cyber
-```
-
-Or change it while chatting:
-
-```text
-/theme blood
-```
